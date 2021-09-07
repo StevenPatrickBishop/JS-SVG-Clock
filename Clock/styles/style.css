@@ -1,0 +1,90 @@
+body{}
+
+.main {
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    align-items: middle;
+
+}
+
+#clockShell{
+    width: 100%;
+}
+
+#face{}
+
+.faceBackground{
+    fill: #09006d;
+}
+      
+#minuteMarkers{}
+
+.markerPath{
+    fill: #fbb03b;
+}
+
+#numbers{}
+.number{
+    fill: #fbb03b;
+    font-size: 24px;
+    font-family: MyriadPro-Regular, Myriad Pro;
+    opacity: 0.86;
+    
+}
+
+#quote{}
+.quoteText{
+    fill: #fbb03b;
+    font-size: 15px;
+    font-family: MonotypeCorsiva, Monotype Corsiva;
+}
+
+
+#center{}
+.centerCircleOne{
+    fill: #fbb03b;
+}
+.centerCircleTwo{
+    fill: #09006d;
+}
+
+
+
+#secHand{
+    transition: transform .5s ease-in-out;
+}
+.secHandPath{
+    fill: #fbb03b;
+    stroke: #fbb03b;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+#minHand{
+      
+}
+.minHandPath{
+    stroke: #fbb03b;
+    fill: none;
+    stroke-width: 1.0px;
+    
+}
+
+#houHand{
+}
+.hourHandPath{
+    stroke: #fbb03b;
+     fill: none;
+    stroke-width: 1.0px;
+	
+	
+}
+
+
+
+ 
+
+     
+     
